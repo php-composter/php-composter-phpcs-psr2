@@ -1,0 +1,26 @@
+{
+  "name": "php-composter/php-composter-phpcs-psr2",
+  "description": "PHP Composter PHP Code Sniffer PSR-2 (pre-commit).",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Alain Schlesser",
+      "email": "alain.schlesser@gmail.com"
+    }
+  ],
+  "type": "php-composter-action",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {
+    "php-composter/php-composter": "^0.1",
+    "squizlabs/php_codesniffer": "^2.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "PHPComposter\\PHPComposter_PHPCS_PSR2\\": "src/"
+    }
+  },
+  "extra": {
+    "10.pre-commit": "PHPComposter\\PHPComposter_PHPCS_PSR2\\Sniffer::preCommit"
+  }
+}
