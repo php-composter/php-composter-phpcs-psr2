@@ -1,4 +1,4 @@
-# PHP Composter PHPCS PSR2
+# PHP Composter PHPCS PSR-2
 
 ### Check your PHP source code for PSR-2 compliance before committing.
 

@@ -12,7 +12,7 @@
   "minimum-stability": "dev",
   "prefer-stable": true,
   "require": {
-    "php-composter/php-composter": "^0.1",
+    "php-composter/php-composter": "^0.2",
     "squizlabs/php_codesniffer": "^2.5"
   },
   "autoload": {
@@ -21,6 +21,8 @@
     }
   },
   "extra": {
-    "10.pre-commit": "PHPComposter\\PHPComposter_PHPCS_PSR2\\Sniffer::preCommit"
+    "php-composter-hooks": {
+      "10.pre-commit": "PHPComposter\\PHPComposter_PHPCS_PSR2\\Sniffer::preCommit"
+    }
   }
 }

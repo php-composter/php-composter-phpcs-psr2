@@ -4,21 +4,21 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "e9fca8d4db5c88f2a6406b4e0340fcae",
-    "content-hash": "ab92d9c42fd2c94aae2ec4d1ea992930",
+    "hash": "ee016ca1266220311e8bbf6c9190fd33",
+    "content-hash": "f043e57a1e813ed421edcbeb9e876cfb",
     "packages": [
         {
             "name": "php-composter/php-composter",
-            "version": "v0.1.2",
+            "version": "v0.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-composter/php-composter.git",
-                "reference": "8a56cd4761578bdbf2075ee2853ad5e6fad621b0"
+                "reference": "1573ba4ec30e567cc9fd4a2ef33a78e5454e311e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-composter/php-composter/zipball/8a56cd4761578bdbf2075ee2853ad5e6fad621b0",
-                "reference": "8a56cd4761578bdbf2075ee2853ad5e6fad621b0",
+                "url": "https://api.github.com/repos/php-composter/php-composter/zipball/1573ba4ec30e567cc9fd4a2ef33a78e5454e311e",
+                "reference": "1573ba4ec30e567cc9fd4a2ef33a78e5454e311e",
                 "shasum": ""
             },
             "require": {
@@ -45,7 +45,7 @@
                 }
             ],
             "description": "Git Hooks Management through Composer.",
-            "time": "2016-03-25 06:06:15"
+            "time": "2016-03-28 05:29:17"
         },
         {
             "name": "squizlabs/php_codesniffer",

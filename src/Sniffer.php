@@ -1,10 +1,10 @@
 <?php
 /**
- * PHP Composter PHP Code Sniffer PSR2 Action.
+ * PHP Composter PHP Code Sniffer PSR-2 Action.
  *
  * @package   PHPComposter\PHPComposter_PHPCS_PSR2
  * @author    Alain Schlesser <alain.schlesser@gmail.com>
- * @license   GPL-2.0+
+ * @license   MIT
  * @link      http://www.brightnucleus.com/
  * @copyright 2016 Alain Schlesser, Bright Nucleus
  */
